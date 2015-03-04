@@ -1,7 +1,7 @@
 [tests]
 #script.FullViewMenu.GalleryTest.testCropThePhoto = 50
 ##script.FullView.GalleryTest.testSharePictureToGmail = 50
-script.FullViewMenu.GalleryTest.testAddKeyWords = 50
+#script.FullViewMenu.GalleryTest.testAddKeyWords = 50
 script.FullViewMenu.GalleryTest.testAddEvent = 50
 script.FullViewMenu.GalleryTest.testAddVenue = 50
 ##script.FullViewMenu.GalleryTest.testCheckDetail = 50
