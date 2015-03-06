@@ -519,7 +519,7 @@ class GalleryTest(unittest.TestCase):
         """ 
         d(resourceId = 'com.intel.android.gallery3d:id/action_edit_burst').click.wait()
         self._selectPictueWhenEditBurst(3)
-        assert d(text = '3 selected').wait.exists(timeout =3000),'tap mark fail'        
+        assert d(text = '3 items selected').wait.exists(timeout =3000),'tap mark fail'        
 
 
 
@@ -529,7 +529,7 @@ class GalleryTest(unittest.TestCase):
   
     ########################################
     def _burstMenuOption(self,selection,option=None,button=None):
-        d(className = 'android.widget.ImageButton').click.wait()
+        d(description = 'More options').click.wait()
         time.sleep(1)
         d(text = selection).click.wait()
         time.sleep(1)
