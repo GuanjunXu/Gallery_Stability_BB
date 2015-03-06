@@ -1,12 +1,12 @@
 [tests]
-#script.FullViewMenu.GalleryTest.testCropThePhoto = 50
+script.FullViewMenu.GalleryTest.testCropThePhoto = 50
 ##script.FullView.GalleryTest.testSharePictureToGmail = 50
-#script.FullViewMenu.GalleryTest.testAddKeyWords = 50
+script.FullViewMenu.GalleryTest.testAddKeyWords = 50
 script.FullViewMenu.GalleryTest.testAddEvent = 50
 script.FullViewMenu.GalleryTest.testAddVenue = 50
 ##script.FullViewMenu.GalleryTest.testCheckDetail = 50
-#script.FullView.GalleryTest.testDeleteSingle = 50
-#script.FullView.GalleryTest.testSlidePictures = 50
+script.FullView.GalleryTest.testDeleteSingle = 50
+script.FullView.GalleryTest.testSlidePictures = 50
 script.FullViewVideo.GalleryTest.testPlayVideoFile = 50
 script.FullViewEdit.GalleryTest.testEditWithToneVintage = 50
 script.FullViewEdit.GalleryTest.testEditWithFrame2 = 50
@@ -36,7 +36,7 @@ script.burstview.GalleryTest.testAddVenue = 50
 script.burstview.GalleryTest.testAddEvent = 50
 script.burstview.GalleryTest.testAddKeyword = 50
 ##script.burstview.GalleryTest.testCheckDetails = 50
-script.burstview.GalleryTest.testSmallPlayBurstIconOfDissolve = 50
+##script.burstview.GalleryTest.testSmallPlayBurstIconOfDissolve = 50
 script.burstview.GalleryTest.testSelectDeselectBurstPicsInEditView = 50
 script.burstview.GalleryTest.testDeleteBusrtPicsInEditView = 50
 script.burstview.GalleryTest.testSmallPlayBurstIconOfDissolveInEditView = 50
