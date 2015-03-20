@@ -428,7 +428,7 @@ class GalleryTest(unittest.TestCase):
         # Step 5
         u.setMenuOptions('Crop')
         if  d(text = 'Complete action using').exists:
-            d(text = 'com.intel.android.gallery3d').click()
+            d(text = 'Crop picture').click()
             d(text = 'Always').click()
         d(text = 'Crop').click()
         result = commands.getoutput('adb shell ls -l /sdcard/testalbum/testpictures1 | grep jpg | wc -l')
@@ -475,6 +475,7 @@ class GalleryTest(unittest.TestCase):
         # Step 6
         self._setpictureas('Wallpaper')
         d(text = 'Crop').click()
+        time.sleep(3)
         # confirm back to gallery
         assert d(description = 'More options').wait.exists(timeout = 2000)
 
@@ -631,8 +632,8 @@ class GalleryTest(unittest.TestCase):
         d(text = slideshow_option).click()
         time.sleep(3)
         # Since automation can't check this point, if it back to gridview treat it as pass.
-        u.pressBack(1)
-        assert d(description = 'Switch to camera').wait.exists(timeout = 2000)
+        u.pressBack(2)
+        assert d(resourceId = 'com.intel.android.gallery3d:id/action_camera').wait.exists(timeout = 2000)
 
     # Testcase 29
     def testAnimateToVideoAllInGridView(self):
